@@ -67,7 +67,16 @@ print(sum(odd_list), max(odd_list))
 # 11.
 var3 = "12abcbacbaba344ab"
 result3 = {}
-for i in var3:
+for i in set(var3):
     if not i.isdigit():
-        var3[i]+=1
+        result3[i]=var3.count(i)
+print(result3)
+
+# 12.
+var4 = (1,2,3,4,5,6,7,8,9,10)
+result4 = ()
+for i in var4:
+    if i%2==0:
+        result4+=(i,)
+print(result4)
 
