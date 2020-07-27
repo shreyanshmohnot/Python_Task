@@ -1,6 +1,7 @@
 # 1.
 
 var1 = [21, 35]
+remove_3div = lambda x:x%3!=0
 remove_7div = lambda x:x%7==0
 result1 = list(filter(remove_7div, filter(remove_3div, var1)))
 
