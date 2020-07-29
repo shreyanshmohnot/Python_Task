@@ -7,6 +7,8 @@ except SyntaxError:
 
 # 2.
 
+## need to supply agruments when running the file.
+
 import sys
 def checkFile(filename):
     try:
